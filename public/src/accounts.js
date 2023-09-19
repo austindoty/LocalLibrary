@@ -13,12 +13,11 @@ function borrowsById (book, {id}) {
 }
 
 function getTotalNumberOfBorrows(account, books) {
-  let count = 0;
-  books.forEach(book => {
+  return books.reduce((count, book) => {
     const borrowedById = borrowsById(book, account);
     count += borrowedById.length;
-  });
-  return count;
+    return count;
+  },0);
 }
   
 /*Filters through the books to see if account has the book checked out:

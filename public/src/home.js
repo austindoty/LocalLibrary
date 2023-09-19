@@ -28,17 +28,6 @@ function getMostCommonGenres(books) {
   }
   
 
-
-/*function getMostPopularBooks(books) {
-  const result =[];
-  books.forEach(book => {
-    if(book.borrows.length != null){
-    
-    }
-  })
-}
-*/
-
 function getMostPopularBooks(books) {
   return books
    .map((book) => {
