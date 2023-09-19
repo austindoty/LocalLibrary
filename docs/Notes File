@@ -1,0 +1,27 @@
+Notes File
+
+Ok there are 14 functions
+
+Accounts 4
+Books 4
+home 6
+
+They alotted about 8 hours for this whole thing mentioning things. There is a requirement list.
+I am not exactly sure how to use map()
+
+Requirements
+    1. Tests are Passing
+    2. No single letter variables
+    3. atleast 1 arrow functions
+    4. Atleast one of Each
+        i. find()
+        i. filter()
+        i. map()
+        i. reduce()
+    5. Uses at least one hlper functions
+    6. at least two of...
+        i. ternary operator
+        i. spread operator
+        i. object shiorthand
+        i. array or objecty destructuring
+        i.for/in loop
